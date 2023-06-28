@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1687952222 "/Users/piotrzapala/Studia/Semestr 6/Systemy Wbudowane/Projekt/AutomatyczneStacjeMeteo.tex" "AutomatyczneStacjeMeteo.pdf" "AutomatyczneStacjeMeteo" 1687952223 0
-  "/Users/piotrzapala/Studia/Semestr 6/Systemy Wbudowane/Projekt/AutomatyczneStacjeMeteo.tex" 1687952221 50970 41623aaf755e8fa0f28c28683837f146 ""
+["pdflatex"] 1687968572 "/Users/piotrzapala/Wbudowane/AutomatyczneStacjeMeteo.tex" "AutomatyczneStacjeMeteo.pdf" "AutomatyczneStacjeMeteo" 1687968573 0
+  "/Users/piotrzapala/Wbudowane/AutomatyczneStacjeMeteo.tex" 1687968571 50970 41623aaf755e8fa0f28c28683837f146 ""
   "/opt/homebrew/Cellar/texlive/20230313/share/texmf-dist/fonts/enc/dvips/pl/plrm.enc" 1678549815 1944 1845592c00bbe510359fd6887a83ff72 ""
   "/opt/homebrew/Cellar/texlive/20230313/share/texmf-dist/fonts/map/fontname/texfonts.map" 1678549815 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/opt/homebrew/Cellar/texlive/20230313/share/texmf-dist/fonts/map/pdftex/updmap/pdftex.map" 1678549815 4609045 74543da1ab9350ba886fce0af49a2cfd ""
@@ -101,11 +101,11 @@
   "/opt/homebrew/Cellar/texlive/20230313/share/texmf-dist/tex/latex/tools/tabularx.sty" 1678549815 7147 be6981d9f5d866a5634048c4a11814a9 ""
   "/opt/homebrew/Cellar/texlive/20230313/share/texmf-dist/web2c/texmf.cnf" 1678549815 40748 4081c8bc921e56c865f975bd762e388c ""
   "/opt/homebrew/Cellar/texlive/20230313/share/texmf-var/web2c/pdftex/pdflatex.fmt" 1678549815 7884046 7da7ec43723541b1080dc65bd2841593 ""
-  "AutomatyczneStacjeMeteo.aux" 1687952223 588 d766bd4d4dcabe924904ebe5a62272f7 "pdflatex"
-  "AutomatyczneStacjeMeteo.tex" 1687952221 50970 41623aaf755e8fa0f28c28683837f146 ""
+  "AutomatyczneStacjeMeteo.aux" 1687968573 588 d766bd4d4dcabe924904ebe5a62272f7 "pdflatex"
+  "AutomatyczneStacjeMeteo.tex" 1687968571 50970 41623aaf755e8fa0f28c28683837f146 ""
   "gotowosc.png" 1687946876 163634 4e2ca9b089d0571181fe7a27b72b54f5 ""
   "moduły.png" 1687941050 348884 7b3533493b5cc68855d79a7cd79d84bc ""
-  "oczekiwanie.png" 1687952096 272933 4c85dae079eeff2c184311700f89ed30 ""
+  "oczekiwanie.png" 1687968510 196587 2ebe554839f29edabe278bdc0269826d ""
   (generated)
   "AutomatyczneStacjeMeteo.aux"
   "AutomatyczneStacjeMeteo.log"

@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1687991720 "/Users/piotrzapala/Wbudowane/AutomatyczneStacjeMeteo.tex" "AutomatyczneStacjeMeteo.pdf" "AutomatyczneStacjeMeteo" 1687991721 0
-  "/Users/piotrzapala/Wbudowane/AutomatyczneStacjeMeteo.tex" 1687991720 54219 13ef200a72d790790b2dabcd99d8fa83 ""
+["pdflatex"] 1687992549 "/Users/piotrzapala/Wbudowane/AutomatyczneStacjeMeteo.tex" "AutomatyczneStacjeMeteo.pdf" "AutomatyczneStacjeMeteo" 1687992551 0
+  "/Users/piotrzapala/Wbudowane/AutomatyczneStacjeMeteo.tex" 1687992547 54223 4d833b2b3eec3f6b7356cb92fe1d3dd8 ""
   "/opt/homebrew/Cellar/texlive/20230313/share/texmf-dist/fonts/enc/dvips/pl/plrm.enc" 1678549815 1944 1845592c00bbe510359fd6887a83ff72 ""
   "/opt/homebrew/Cellar/texlive/20230313/share/texmf-dist/fonts/map/fontname/texfonts.map" 1678549815 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/opt/homebrew/Cellar/texlive/20230313/share/texmf-dist/fonts/map/pdftex/updmap/pdftex.map" 1678549815 4609045 74543da1ab9350ba886fce0af49a2cfd ""
@@ -104,8 +104,8 @@
   "4.1.1.png" 1687989277 81681 8fdab90b56f718054f51c9fd4ef52ff9 ""
   "4.1.2.png" 1687991496 171072 2d21693a6a538465c1b1ff63d331ff1f ""
   "4.1.4.png" 1687989277 56906 4e56d6556e33130fe0a018c57ee2b023 ""
-  "AutomatyczneStacjeMeteo.aux" 1687991721 2148 8cc8dd6271fbd59db40a1ea243548b22 "pdflatex"
-  "AutomatyczneStacjeMeteo.tex" 1687991720 54219 13ef200a72d790790b2dabcd99d8fa83 ""
+  "AutomatyczneStacjeMeteo.aux" 1687992551 2148 56878c33f1633638fa32b1a0b999238c "pdflatex"
+  "AutomatyczneStacjeMeteo.tex" 1687992547 54223 4d833b2b3eec3f6b7356cb92fe1d3dd8 ""
   "alarmowy.png" 1687980701 151777 8626c4b2070ffa1f0c3414efb5fd7214 ""
   "awaryjny.png" 1687981594 153087 ad7bec360d7a30155136d1612bba820f ""
   "gotowosc.png" 1687974153 139933 0b24d9789b634ab0700169e7ffafa0b5 ""

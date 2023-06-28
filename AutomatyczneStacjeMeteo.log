@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Homebrew) (preloaded format=pdflatex 2023.3.21)  29 JUN 2023 00:35
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Homebrew) (preloaded format=pdflatex 2023.3.21)  29 JUN 2023 00:49
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -612,12 +612,7 @@ Package pdftex.def Info: pu.png  used on input line 632.
 File: moduły.png Graphic file (type png)
 <use moduły.png>
 Package pdftex.def Info: moduły.png  used on input line 739.
-(pdftex.def)             Requested size: 562.60051pt x 537.50682pt.
-
-Overfull \hbox (5.211pt too wide) in paragraph at lines 735--740
- [] 
- []
-
+(pdftex.def)             Requested size: 450.07353pt x 429.99889pt.
 <gotowosc.png, id=52, 751.80875pt x 984.67876pt>
 File: gotowosc.png Graphic file (type png)
 <use gotowosc.png>
@@ -673,7 +668,7 @@ File: 4.1.4.png Graphic file (type png)
 <use 4.1.4.png>
 Package pdftex.def Info: 4.1.4.png  used on input line 863.
 (pdftex.def)             Requested size: 391.96342pt x 261.47623pt.
-[14] [15 <./moduły.png>] [16 <./gotowosc.png>] [17 <./oczekiwanie.png>] [18 <./pomiary.png>] [19 <./alarmowy.png>] [20 <./serwis.png>] [21 <./kalibracja.png>] [22 <./uspienie.png>] [23 <./awaryjny.png>] [24 <./4.1.1.png>] [25 <./4.1.2.png>] [26 <./4.1.4.png>] 
+ [14 <./moduły.png>] [15 <./gotowosc.png>] [16 <./oczekiwanie.png>] [17 <./pomiary.png>] [18 <./alarmowy.png>] [19 <./serwis.png>] [20 <./kalibracja.png>] [21 <./uspienie.png>] [22 <./awaryjny.png>] [23 <./4.1.1.png>] [24 <./4.1.2.png>] [25 <./4.1.4.png>] 
 enddocument/afterlastpage: lastpage setting LastPage.
 (./AutomatyczneStacjeMeteo.aux) ) 
 Here is how much of TeX's memory you used:
@@ -685,10 +680,10 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  70i,9n,76p,750b,336s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </opt/homebrew/Cellar/texlive/20230313/share/texmf-dist/fonts/type1/public/pl/plbx12.pfb></opt/homebrew/Cellar/texlive/20230313/share/texmf-dist/fonts/type1/public/pl/plr10.pfb></opt/homebrew/Cellar/texlive/20230313/share/texmf-dist/fonts/type1/public/pl/plr12.pfb></opt/homebrew/Cellar/texlive/20230313/share/texmf-dist/fonts/type1/public/pl/plr17.pfb>
-Output written on AutomatyczneStacjeMeteo.pdf (26 pages, 949423 bytes).
+Output written on AutomatyczneStacjeMeteo.pdf (25 pages, 949250 bytes).
 PDF statistics:
- 136 PDF objects out of 1000 (max. 8388607)
- 73 compressed objects within 1 object stream
+ 133 PDF objects out of 1000 (max. 8388607)
+ 71 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  66 words of extra memory for PDF output out of 10000 (max. 10000000)
 

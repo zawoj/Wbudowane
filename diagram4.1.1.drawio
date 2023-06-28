@@ -1,111 +1,111 @@
-<mxfile host="app.diagrams.net" modified="2023-06-28T16:21:42.830Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/114.0" etag="s3kXwjgWFJD2N09WUoaa" version="21.5.1" type="device">
-  <diagram name="Page-1" id="ZiBhGcY2h0y6TDJkbK1j">
-    <mxGraphModel dx="2210" dy="1895" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
-      <root>
-        <mxCell id="0" />
-        <mxCell id="1" parent="0" />
-        <mxCell id="2" value="Start" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
-          <mxGeometry x="76" width="49" height="34" as="geometry" />
-        </mxCell>
-        <mxCell id="3" value="Czy temperatura&#xa; jest w zakresie&#xa; (-40°C, 50°C)?" style="rhombus;strokeWidth=2;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="39" y="84" width="124" height="124" as="geometry" />
-        </mxCell>
-        <mxCell id="4" value=" Wyświetl komunikat&#xa; o błędnej temperaturze" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
-          <mxGeometry x="-87" y="224" width="126" height="62" as="geometry" />
-        </mxCell>
-        <mxCell id="8" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.4959677419354839;entryY=0;" parent="1" source="2" target="3" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="9" value="" style="startArrow=none;endArrow=block;exitX=0;exitY=0.5;entryX=0.4967105263157895;entryY=-0.008823619169347426;edgeStyle=orthogonalEdgeStyle;rounded=0;exitDx=0;exitDy=0;" parent="1" source="3" target="4" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="mS19_kElf0S-08L5BquZ-12" value="&lt;div&gt;Nie &lt;br&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="9">
-          <mxGeometry x="-0.3915" y="-3" relative="1" as="geometry">
-            <mxPoint x="-20" y="17" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="10" value="" style="startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0.5;entryY=0;entryDx=0;entryDy=0;rounded=0;edgeStyle=orthogonalEdgeStyle;exitDx=0;exitDy=0;" parent="1" source="3" target="mS19_kElf0S-08L5BquZ-15" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="293" y="300" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="mS19_kElf0S-08L5BquZ-13" value="Tak" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="10">
-          <mxGeometry x="-0.0935" y="-1" relative="1" as="geometry">
-            <mxPoint x="1" y="14" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="mS19_kElf0S-08L5BquZ-18" style="orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;rounded=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="mS19_kElf0S-08L5BquZ-15" target="mS19_kElf0S-08L5BquZ-17">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="mS19_kElf0S-08L5BquZ-19" value="&lt;div&gt;Tak&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="mS19_kElf0S-08L5BquZ-18">
-          <mxGeometry x="-0.0492" y="-2" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="mS19_kElf0S-08L5BquZ-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="mS19_kElf0S-08L5BquZ-15" target="mS19_kElf0S-08L5BquZ-23">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="mS19_kElf0S-08L5BquZ-34" value="Nie" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="mS19_kElf0S-08L5BquZ-26">
-          <mxGeometry x="0.0972" y="2" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="mS19_kElf0S-08L5BquZ-15" value="Czy wilgotność&#xa; jest w zakresie&#xa; (0%, 100%)?" style="rhombus;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="160" y="224" width="134" height="130" as="geometry" />
-        </mxCell>
-        <mxCell id="mS19_kElf0S-08L5BquZ-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="mS19_kElf0S-08L5BquZ-16" target="mS19_kElf0S-08L5BquZ-24">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="mS19_kElf0S-08L5BquZ-32" value="Nie" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="mS19_kElf0S-08L5BquZ-28">
-          <mxGeometry x="0.3816" y="1" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="mS19_kElf0S-08L5BquZ-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="mS19_kElf0S-08L5BquZ-16" target="mS19_kElf0S-08L5BquZ-25">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="mS19_kElf0S-08L5BquZ-31" value="Tak" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="mS19_kElf0S-08L5BquZ-29">
-          <mxGeometry x="0.3289" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="mS19_kElf0S-08L5BquZ-16" value="Czy opady deszczu&#xa; są w zakresie&#xa; (0 mm, 50 mm)?" style="rhombus;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="410" y="530" width="139" height="130" as="geometry" />
-        </mxCell>
-        <mxCell id="mS19_kElf0S-08L5BquZ-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="mS19_kElf0S-08L5BquZ-17" target="mS19_kElf0S-08L5BquZ-16">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="mS19_kElf0S-08L5BquZ-21" value="&lt;div&gt;Tak&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="mS19_kElf0S-08L5BquZ-20">
-          <mxGeometry x="-0.3237" y="1" relative="1" as="geometry">
-            <mxPoint x="6" y="11" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="mS19_kElf0S-08L5BquZ-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="mS19_kElf0S-08L5BquZ-17" target="mS19_kElf0S-08L5BquZ-22">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="mS19_kElf0S-08L5BquZ-33" value="Nie" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="mS19_kElf0S-08L5BquZ-27">
-          <mxGeometry x="0.1128" y="3" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="mS19_kElf0S-08L5BquZ-17" value="Czy ciśnienie atmosferyczne jest w zakresie (800 hPa, 1200 hPa)?" style="rhombus;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="280" y="370" width="145" height="140" as="geometry" />
-        </mxCell>
-        <mxCell id="mS19_kElf0S-08L5BquZ-22" value="Wyświetl komunikat o błędnym ciśnieniu atmosferycznym" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="154" y="510" width="126" height="62" as="geometry" />
-        </mxCell>
-        <mxCell id="mS19_kElf0S-08L5BquZ-23" value="Wyświetl komunikat o błędnej wilgotności" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="34" y="370" width="126" height="62" as="geometry" />
-        </mxCell>
-        <mxCell id="mS19_kElf0S-08L5BquZ-24" value="&#xa;Wyświetl komunikat o błędnych opadach deszczu&#xa;" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="260" y="660" width="126" height="62" as="geometry" />
-        </mxCell>
-        <mxCell id="mS19_kElf0S-08L5BquZ-25" value=" Parametry są poprawne" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="570" y="660" width="126" height="62" as="geometry" />
-        </mxCell>
-      </root>
-    </mxGraphModel>
-  </diagram>
+<mxfile host="65bd71144e">
+    <diagram name="Page-1" id="ZiBhGcY2h0y6TDJkbK1j">
+        <mxGraphModel dx="1840" dy="1873" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="Start" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+                    <mxGeometry x="76" width="49" height="34" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="Czy temperatura&#10; jest w zakresie&#10; (-40°C, 50°C)?" style="rhombus;strokeWidth=2;whiteSpace=wrap;" parent="1" vertex="1">
+                    <mxGeometry x="34" y="80" width="133" height="136" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value=" Wyświetl komunikat&#10; o błędnej temperaturze" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+                    <mxGeometry x="-87" y="224" width="126" height="62" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.4959677419354839;entryY=0;" parent="1" source="2" target="3" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="9" value="" style="startArrow=none;endArrow=block;exitX=0;exitY=0.5;entryX=0.4967105263157895;entryY=-0.008823619169347426;edgeStyle=orthogonalEdgeStyle;rounded=0;exitDx=0;exitDy=0;" parent="1" source="3" target="4" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="mS19_kElf0S-08L5BquZ-12" value="&lt;div&gt;Nie &lt;br&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="9" vertex="1" connectable="0">
+                    <mxGeometry x="-0.3915" y="-3" relative="1" as="geometry">
+                        <mxPoint x="-20" y="17" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="10" value="" style="startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0.5;entryY=0;entryDx=0;entryDy=0;rounded=0;edgeStyle=orthogonalEdgeStyle;exitDx=0;exitDy=0;" parent="1" source="3" target="mS19_kElf0S-08L5BquZ-15" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="293" y="300" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="mS19_kElf0S-08L5BquZ-13" value="Tak" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="10" vertex="1" connectable="0">
+                    <mxGeometry x="-0.0935" y="-1" relative="1" as="geometry">
+                        <mxPoint x="1" y="14" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="mS19_kElf0S-08L5BquZ-18" style="orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;rounded=0;edgeStyle=orthogonalEdgeStyle;" parent="1" source="mS19_kElf0S-08L5BquZ-15" target="mS19_kElf0S-08L5BquZ-17" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="mS19_kElf0S-08L5BquZ-19" value="&lt;div&gt;Tak&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="mS19_kElf0S-08L5BquZ-18" vertex="1" connectable="0">
+                    <mxGeometry x="-0.0492" y="-2" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="mS19_kElf0S-08L5BquZ-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="mS19_kElf0S-08L5BquZ-15" target="mS19_kElf0S-08L5BquZ-23" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="mS19_kElf0S-08L5BquZ-34" value="Nie" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="mS19_kElf0S-08L5BquZ-26" vertex="1" connectable="0">
+                    <mxGeometry x="0.0972" y="2" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="mS19_kElf0S-08L5BquZ-15" value="Czy wilgotność&#10; jest w zakresie&#10; (0%, 100%)?" style="rhombus;strokeWidth=2;whiteSpace=wrap;" parent="1" vertex="1">
+                    <mxGeometry x="154" y="214" width="154" height="146" as="geometry"/>
+                </mxCell>
+                <mxCell id="mS19_kElf0S-08L5BquZ-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="mS19_kElf0S-08L5BquZ-16" target="mS19_kElf0S-08L5BquZ-24" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="mS19_kElf0S-08L5BquZ-32" value="Nie" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="mS19_kElf0S-08L5BquZ-28" vertex="1" connectable="0">
+                    <mxGeometry x="0.3816" y="1" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="mS19_kElf0S-08L5BquZ-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="mS19_kElf0S-08L5BquZ-16" target="mS19_kElf0S-08L5BquZ-25" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="mS19_kElf0S-08L5BquZ-31" value="Tak" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="mS19_kElf0S-08L5BquZ-29" vertex="1" connectable="0">
+                    <mxGeometry x="0.3289" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="mS19_kElf0S-08L5BquZ-16" value="Czy opady deszczu&#10; są w zakresie&#10; (0 mm, 50 mm)?" style="rhombus;strokeWidth=2;whiteSpace=wrap;" parent="1" vertex="1">
+                    <mxGeometry x="390" y="530" width="159" height="150" as="geometry"/>
+                </mxCell>
+                <mxCell id="mS19_kElf0S-08L5BquZ-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="mS19_kElf0S-08L5BquZ-17" target="mS19_kElf0S-08L5BquZ-16" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="mS19_kElf0S-08L5BquZ-21" value="&lt;div&gt;Tak&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="mS19_kElf0S-08L5BquZ-20" vertex="1" connectable="0">
+                    <mxGeometry x="-0.3237" y="1" relative="1" as="geometry">
+                        <mxPoint x="6" y="11" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="mS19_kElf0S-08L5BquZ-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="mS19_kElf0S-08L5BquZ-17" target="mS19_kElf0S-08L5BquZ-22" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="mS19_kElf0S-08L5BquZ-33" value="Nie" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="mS19_kElf0S-08L5BquZ-27" vertex="1" connectable="0">
+                    <mxGeometry x="0.1128" y="3" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="mS19_kElf0S-08L5BquZ-17" value="Czy ciśnienie&#10; atmosferyczne jest w zakresie (800 hPa, 1200 hPa)?" style="rhombus;strokeWidth=2;whiteSpace=wrap;" parent="1" vertex="1">
+                    <mxGeometry x="270" y="360" width="165" height="150" as="geometry"/>
+                </mxCell>
+                <mxCell id="mS19_kElf0S-08L5BquZ-22" value="Wyświetl komunikat o błędnym ciśnieniu atmosferycznym" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+                    <mxGeometry x="154" y="510" width="126" height="62" as="geometry"/>
+                </mxCell>
+                <mxCell id="mS19_kElf0S-08L5BquZ-23" value="Wyświetl komunikat o błędnej wilgotności" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+                    <mxGeometry x="34" y="370" width="126" height="62" as="geometry"/>
+                </mxCell>
+                <mxCell id="mS19_kElf0S-08L5BquZ-24" value="&#10;Wyświetl komunikat o błędnych opadach deszczu&#10;" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+                    <mxGeometry x="260" y="660" width="126" height="62" as="geometry"/>
+                </mxCell>
+                <mxCell id="mS19_kElf0S-08L5BquZ-25" value=" Parametry są poprawne" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+                    <mxGeometry x="570" y="660" width="126" height="62" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
 </mxfile>

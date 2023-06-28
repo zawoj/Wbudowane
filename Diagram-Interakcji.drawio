@@ -1,0 +1,141 @@
+<mxfile host="app.diagrams.net" modified="2023-06-28T16:54:22.130Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/114.0" etag="bA427v8z5EuRg5PgMZHx" version="21.5.1" type="device">
+  <diagram name="Page-1" id="7duWgtU5-XTEBVeGhmz6">
+    <mxGraphModel dx="1360" dy="795" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="a2_msD3x7rxJo9Cr5Drd-10" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=horizontal;curved=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="274.5" y="110" as="sourcePoint" />
+            <mxPoint x="479.5" y="110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a2_msD3x7rxJo9Cr5Drd-16" value="&lt;pre&gt;&lt;code class=&quot;!whitespace-pre hljs language-lua&quot;&gt;Polecenie odczytu pomiaru&lt;/code&gt;&lt;/pre&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;" vertex="1" connectable="0" parent="a2_msD3x7rxJo9Cr5Drd-10">
+          <mxGeometry x="-0.2829" y="-1" relative="1" as="geometry">
+            <mxPoint x="22" y="-11" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a2_msD3x7rxJo9Cr5Drd-19" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;curved=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="272.5" y="250" as="sourcePoint" />
+            <mxPoint x="687.5" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a2_msD3x7rxJo9Cr5Drd-20" value="&lt;pre&gt;&lt;code class=&quot;!whitespace-pre hljs language-lua&quot;&gt;Zapis danych do bazy&lt;/code&gt;&lt;/pre&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;" vertex="1" connectable="0" parent="a2_msD3x7rxJo9Cr5Drd-19">
+          <mxGeometry x="0.588" y="-1" relative="1" as="geometry">
+            <mxPoint x="-32" y="-11" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a2_msD3x7rxJo9Cr5Drd-29" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;curved=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="272.5" y="380" as="sourcePoint" />
+            <mxPoint x="687.5" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a2_msD3x7rxJo9Cr5Drd-30" value="&lt;pre&gt;&lt;code class=&quot;!whitespace-pre hljs language-lua&quot;&gt;Polecenie wyświetlenia danych&lt;/code&gt;&lt;/pre&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;" vertex="1" connectable="0" parent="a2_msD3x7rxJo9Cr5Drd-29">
+          <mxGeometry x="-0.3277" relative="1" as="geometry">
+            <mxPoint x="166" y="-10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a2_msD3x7rxJo9Cr5Drd-33" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;curved=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="274.5" y="280" as="sourcePoint" />
+            <mxPoint x="74.5" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a2_msD3x7rxJo9Cr5Drd-34" value="Wyświetlenie pomiaru" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="a2_msD3x7rxJo9Cr5Drd-33">
+          <mxGeometry x="0.185" y="-1" relative="1" as="geometry">
+            <mxPoint x="15" y="-9" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a2_msD3x7rxJo9Cr5Drd-35" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;curved=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="274.5" y="470" as="sourcePoint" />
+            <mxPoint x="74.5" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a2_msD3x7rxJo9Cr5Drd-36" value="Wyświetlenie danych" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="a2_msD3x7rxJo9Cr5Drd-35">
+          <mxGeometry x="0.145" y="-2" relative="1" as="geometry">
+            <mxPoint x="11" y="-8" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2" value="Moduł Jednostki Głównej " style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" parent="1" vertex="1">
+          <mxGeometry x="200" width="150" height="520" as="geometry" />
+        </mxCell>
+        <mxCell id="a2_msD3x7rxJo9Cr5Drd-14" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;curved=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="479.5" y="140" as="sourcePoint" />
+            <mxPoint x="689.5" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a2_msD3x7rxJo9Cr5Drd-15" value="Zapisanie pomiaru" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="a2_msD3x7rxJo9Cr5Drd-14">
+          <mxGeometry x="-0.3857" y="2" relative="1" as="geometry">
+            <mxPoint x="16" y="-8" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3" value="Moduł Pomiarów" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" parent="1" vertex="1">
+          <mxGeometry x="400" width="160" height="520" as="geometry" />
+        </mxCell>
+        <mxCell id="a2_msD3x7rxJo9Cr5Drd-17" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=horizontal;curved=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="687.5" y="180" as="sourcePoint" />
+            <mxPoint x="272.5" y="180" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="528" y="180" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a2_msD3x7rxJo9Cr5Drd-18" value="&lt;pre&gt;&lt;code class=&quot;!whitespace-pre hljs language-lua&quot;&gt;Przesłanie danych&lt;/code&gt;&lt;/pre&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;" vertex="1" connectable="0" parent="a2_msD3x7rxJo9Cr5Drd-17">
+          <mxGeometry x="-0.1286" relative="1" as="geometry">
+            <mxPoint x="-126" y="-10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a2_msD3x7rxJo9Cr5Drd-31" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;curved=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="687.5" y="430" as="sourcePoint" />
+            <mxPoint x="272.5" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a2_msD3x7rxJo9Cr5Drd-32" value="&lt;pre&gt;&lt;code class=&quot;!whitespace-pre hljs language-lua&quot;&gt;Przesłanie danych&lt;/code&gt;&lt;/pre&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;" vertex="1" connectable="0" parent="a2_msD3x7rxJo9Cr5Drd-31">
+          <mxGeometry x="0.6072" y="1" relative="1" as="geometry">
+            <mxPoint x="14" y="-11" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a2_msD3x7rxJo9Cr5Drd-9" value="Moduł Bazy Danych" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" vertex="1" parent="1">
+          <mxGeometry x="600" width="180" height="520" as="geometry" />
+        </mxCell>
+        <mxCell id="a2_msD3x7rxJo9Cr5Drd-21" value="Przetwarzanie" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="250" y="200" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="a2_msD3x7rxJo9Cr5Drd-24" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;curved=0;entryX=0.467;entryY=0.704;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="74.5" y="340" as="sourcePoint" />
+            <mxPoint x="270.04999999999995" y="340.0799999999999" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a2_msD3x7rxJo9Cr5Drd-25" value="&lt;pre&gt;&lt;code class=&quot;!whitespace-pre hljs language-lua&quot;&gt;Polecenie wyświetlenia danych&lt;/code&gt;&lt;/pre&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;" vertex="1" connectable="0" parent="a2_msD3x7rxJo9Cr5Drd-24">
+          <mxGeometry x="0.2667" y="-4" relative="1" as="geometry">
+            <mxPoint x="-23" y="-14" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a2_msD3x7rxJo9Cr5Drd-26" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;curved=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="74.5" y="80" as="sourcePoint" />
+            <mxPoint x="274.5" y="80" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a2_msD3x7rxJo9Cr5Drd-28" value="&lt;pre&gt;&lt;code class=&quot;!whitespace-pre hljs language-lua&quot;&gt;Polecenie odczytu pomiaru&lt;/code&gt;&lt;/pre&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;" vertex="1" connectable="0" parent="a2_msD3x7rxJo9Cr5Drd-26">
+          <mxGeometry x="-0.155" y="3" relative="1" as="geometry">
+            <mxPoint x="11" y="13" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a2_msD3x7rxJo9Cr5Drd-22" value="Moduł Jednostki Głównej " style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" vertex="1" parent="1">
+          <mxGeometry width="150" height="520" as="geometry" />
+        </mxCell>
+        <mxCell id="a2_msD3x7rxJo9Cr5Drd-27" value="&lt;pre&gt;&lt;br&gt;&lt;/pre&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="190" y="70" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -22,6 +22,7 @@
 \usepackage{mathabx}
 \usepackage{algpseudocode}
 \usepackage{algorithm}
+\usepackage{graphicx}
 
 \title{Systemy wbudowane '23 \\ Projekt \\ Automatyczne stacje meteorologiczne}
 \author{Piotr Zapała, Igor Urbanowicz, Kacper Zawojski}
@@ -621,6 +622,134 @@
         \hline
         \end{tabular}
     \end{center}
+    \newpage
 
+    \large Przykładowy system realizujący urządzenie automatycznie badające warunki atmofseryczne, może składać się z następujących modułów: \newline \newline
+    \begin{center}
+        \textbf{1. Moduł Baza Danych} 
+    \end{center}
+    \begin{flushleft}
+        \textbf{a). Baza danych SQL} Przechowuje i zarządza danymi systemu, takimi jak parametry meteorologiczne, raporty pogodowe itp. \newline
+        \textbf{b). Serwer bazy danych} Zapewnia dostęp i obsługę operacji na bazie danych. \newline
+        \textbf{c). Interfejs programistyczny bazy danych (API)} Umożliwia komunikację między modułem Zarządzania Danych a bazą danych. \newline
+        \textbf{d). System zarządzania bazą danych (DBMS)} Odpowiada za zarządzanie bazą danych, w tym tworzenie, zapisywanie, odczytywanie i aktualizowanie danych.
+        Interfejs bazy danych: Zapewnia komunikację między systemem a bazą danych, umożliwiając operacje odczytu i zapisu danych. \newline
+    \end{flushleft}
 \end{center}
+\large
+\begin{center}
+    \textbf{2. Moduł Jednostki Głównej} 
+\end{center}
+\begin{flushleft}
+    \textbf{a). Procesor (CPU)} Wykonuje obliczenia i steruje działaniem systemu, w tym koordynuje działanie innych modułów. \newline
+    \textbf{b). Pamięć RAM} Przechowuje dane tymczasowe i programy wykonywane przez CPU. \newline
+    \textbf{c). Pamięć ROM} Zawiera trwałe dane, takie jak firmware i programy startowe. \newline
+    \textbf{d). Pamięć masowa} Służy do długotrwałego przechowywania danych, takiego jak dysk twardy, pamięć flash itp. \newline
+    \textbf{e). Magistrala danych} Zapewnia komunikację między różnymi komponentami w module Jednostki Głównej. \newline
+\end{flushleft}
+\large
+\begin{center}
+    \textbf{3. Moduł Interfejsu Użytkownika} 
+\end{center}
+\begin{flushleft}
+    \textbf{a). Wyświetlacz LCD} Wyświetla dane, komunikaty, ikony, grafiki itp., umożliwiając użytkownikowi wizualną interakcję. \newline
+    \textbf{b). Klawiatura} Pozwala na wprowadzanie danych tekstowych i wybór opcji za pomocą fizycznych klawiszy. \newline
+    \textbf{c). Przyciski funkcyjne} Zapewniają dodatkowe funkcje i szybki dostęp do często używanych opcji. \newline
+    \textbf{d). Głośnik} Odtwarza dźwięki, alarmy lub komunikaty głosowe. \newline
+    \textbf{e). Moduł graficzny} Odpowiada za renderowanie interfejsu użytkownika, wyświetlanie ikon, przycisków i innych elementów graficznych. \newline
+    \textbf{f). Sterownik interfejsu użytkownika} Zapewnia obsługę interakcji z użytkownikiem, przetwarzanie danych wejściowych i wyjściowych. \newline
+    \textbf{g). Diody LED} Sygnalizują różne stany systemu lub alarmy. \newline
+\end{flushleft}
+\newpage
+\large
+\begin{center}
+    \textbf{4. Moduł Zasilania} 
+\end{center}
+\begin{flushleft}
+    \textbf{a). Panel solarny} Konwertuje energię słoneczną na energię elektryczną. \newline
+    \textbf{b). Baterie} Przechowują energię elektryczną dla systemu w celu zasilania w nocy lub w przypadku braku światła słonecznego. \newline
+    \textbf{c). Kontroler ładowania} Zarządza procesem ładowania baterii z panelu solarnego. \newline
+    \textbf{d). Przetwornica napięcia} Konwertuje napięcie z baterii na odpowiednie napięcie dla różnych komponentów systemu. \newline
+    \textbf{e). Układ zarządzania zasilaniem} Monitoruje i zarządza zużyciem energii oraz dostarczaniem zasilania do poszczególnych modułów. \newline
+\end{flushleft}
+\large
+\begin{center}
+    \textbf{5. Moduł Pomiarów} 
+\end{center}
+\begin{flushleft}
+    \textbf{a). Czujnik temperatury (DHT11)} Mierzy temperaturę otoczenia. \newline
+    \textbf{b). Czujnik wilgotności (DHT11)} Pomiar wilgotności powietrza. \newline
+    \textbf{c). Czujnik ciśnienia atmosferycznego (BMP280 - I2C)} Monitoruje ciśnienie atmosferyczne. \newline
+    \textbf{d). Czujnik opadów (YL-83)} Wykrywa i mierzy opady atmosferyczne, takie jak deszcz, śnieg itp. \newline
+    \textbf{e). Czujnik wiatru (MP503 v1.3)} Mierzy prędkość i kierunek wiatru. \newline
+    \textbf{f). Czujnik promieniowania słonecznego (Waveshare 9537)} Mierzy intensywność promieniowania słonecznego. \newline
+    \textbf{g). Czujnik jakości powietrza (SGP40)} Odpowiada za pomiar parametrów zanieczyszczenia powietrza, takich jak stężenie gazów i cząstek. \newline
+\end{flushleft}
+\newpage
+\begin{center}
+    \large W naszym systemie istnieję wiele różnych połączeń między modułami. Pozwalają one na odpowiedni przepływ informacji między podzespołami, a w rezultacie zapewniają prawidłowe działanie całego systemu.
+    W zależności od dobranych podzespołów i sposobu wykonywania przez nie powierzonych im zadań, połączenia mogą się różnić. W naszym systemie są one realizowane w następujący sposób.
+\end{center}
+\begin{flushleft}
+    \Large \textbf{Moduł Bazy Danych} \newline \newline
+    \large
+    \textbf{1.} Moduł Bazy Danych jest połączony z Modułem Jednostki Głównej za pomocą interfejsu programistycznego bazy danych (API). Dzięki temu Moduł Jednostki Głównej może komunikować się z bazą danych, pobierać dane, aktualizować je lub zapisywać nowe informacje. \newline \newline
+\end{flushleft} 
+\begin{flushleft}
+    \Large \textbf{Moduł Jednostki Głównej} \newline \newline
+    \large
+    \textbf{1.} Pamięć RAM jest bezpośrednio podłączona do Procesora (CPU) w celu przechowywania danych tymczasowych i programów wykonywanych przez CPU. \newline \newline
+    \textbf{2.} Pamięć ROM zawierająca firmware i programy startowe jest również bezpośrednio połączona z Procesorem, umożliwiając mu dostęp do niezbędnych instrukcji przy uruchamianiu systemu \newline \newline
+    \textbf{3.} Magistrala danych łączy różne komponenty w module Jednostki Głównej, umożliwiając im wymianę danych i komunikację między sobą. \newline \newline
+\end{flushleft}
+\begin{flushleft}
+    \Large \textbf{Moduł Interfejsu Użytkownika} \newline \newline
+    \large
+    \textbf{1.} Wyświetlacz LCD jest połączony z Modułem Jednostki Głównej, który dostarcza dane do wyświetlenia. Użytkownik może za pomocą wyświetlacza odczytywać informacje o pogodzie. \newline \newline
+    \textbf{2.} Klawiatura, przyciski funkcyjne oraz sterownik interfejsu użytkownika są również podłączone do Modułu Jednostki Głównej i umożliwiają interakcję użytkownika z systemem poprzez wprowadzanie danych i wybieranie opcji. \newline \newline
+\end{flushleft}
+\begin{flushleft}
+    \Large \textbf{Moduł Zasilania} \newline \newline
+    \large
+    \textbf{1.} Panel solarny, baterie, kontroler ładowania oraz przetwornica napięcia są połączone w celu dostarczania zasilania do różnych komponentów systemu. \newline \newline
+    \textbf{2.} Układ zarządzania zasilaniem monitoruje zużycie energii i zarządza dostarczaniem zasilania do poszczególnych modułów, zapewniając efektywne i nieprzerwane działanie stacji pogodowej. \newline \newline
+\end{flushleft}
+\begin{flushleft}
+    \Large \textbf{Moduł Pomiarów} \newline \newline
+    \large
+    \textbf{1.} Czujniki temperatury, wilgotności, ciśnienia atmosferycznego, opadów, wiatru, promieniowania słonecznego oraz jakości powietrza są podłączone do Modułu Jednostki Głównej. \newline \newline
+    \textbf{2.} Moduł Jednostki Głównej odczytuje dane z tych czujników i przetwarza je, aby uzyskać informacje o aktualnych warunkach pogodowych. Dane te mogą być przechowywane w bazie danych w celu późniejszego wykorzystania lub generowania raportów. \newline \newline
+\end{flushleft}
+\begin{figure}
+    \centering
+    \begin{minipage}{0.6\textwidth}
+        \centering
+        \large Poniższy diagram zawiera moduły wchodzące w skład naszego systemu oraz schemat połączeń między nimi.
+    \end{minipage}
+    \includegraphics[scale=0.5]{moduły.png}
+    \caption{Schemat modułów}
+    \label{etykieta}
+\end{figure}
+
+\begin{figure}
+    \centering
+    \begin{minipage}{0.6\textwidth}
+        \centering
+        \large Pierwszy z diagramów stanów prezentuję stan "Gotowość", który opisuje sytuację inicjalizacji pracy stacji pogodowej.
+    \end{minipage}
+    \includegraphics[scale=0.5]{gotowosc.png}
+    \caption{Diagram stanu "Gotowość"}
+    \label{etykieta1}
+\end{figure}
+
+\begin{figure}
+    \centering
+    \begin{minipage}{0.6\textwidth}
+        \centering
+        \large Drugi z diagramów stanów prezentuję stan "Oczekiwanie", który prezentuje działanie systemu w konteksćie odbierania sygnałów zewnętrznych i wewenętrznych związanych z podstawowym sterowaniem.
+    \end{minipage}
+    \includegraphics[scale=0.5]{oczekiwanie.png}
+    \caption{Diagram stanu "Oczekiwanie"}
+    \label{etykieta2}
+\end{figure}
 \end{document}

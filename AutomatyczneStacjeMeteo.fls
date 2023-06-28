@@ -1,7 +1,7 @@
-PWD /Users/piotrzapala/Studia/Semestr 6/Systemy Wbudowane/Projekt
+PWD /Users/piotrzapala/Wbudowane
 INPUT /opt/homebrew/Cellar/texlive/20230313/share/texmf-dist/web2c/texmf.cnf
 INPUT /opt/homebrew/Cellar/texlive/20230313/share/texmf-var/web2c/pdftex/pdflatex.fmt
-INPUT /Users/piotrzapala/Studia/Semestr 6/Systemy Wbudowane/Projekt/AutomatyczneStacjeMeteo.tex
+INPUT /Users/piotrzapala/Wbudowane/AutomatyczneStacjeMeteo.tex
 OUTPUT AutomatyczneStacjeMeteo.log
 INPUT /opt/homebrew/Cellar/texlive/20230313/share/texmf-dist/tex/latex/base/article.cls
 INPUT /opt/homebrew/Cellar/texlive/20230313/share/texmf-dist/tex/latex/base/article.cls

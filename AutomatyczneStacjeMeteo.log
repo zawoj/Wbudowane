@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Homebrew) (preloaded format=pdflatex 2023.3.21)  28 JUN 2023 18:09
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Homebrew) (preloaded format=pdflatex 2023.3.21)  28 JUN 2023 19:53
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -602,37 +602,57 @@ LaTeX Font Info:    External font `plex10' loaded for size
 (Font)              <7> on input line 728.
 LaTeX Font Info:    External font `plex10' loaded for size
 (Font)              <5> on input line 728.
-<moduły.png, id=48, 916.42375pt x 522.95375pt>
+<moduły.png, id=48, 1125.20375pt x 1075.01625pt>
 File: moduły.png Graphic file (type png)
 <use moduły.png>
 Package pdftex.def Info: moduły.png  used on input line 729.
-(pdftex.def)             Requested size: 458.21075pt x 261.47623pt.
-<gotowosc.png, id=50, 753.81625pt x 994.71625pt>
+(pdftex.def)             Requested size: 562.60051pt x 537.50682pt.
+
+Overfull \hbox (5.211pt too wide) in paragraph at lines 725--730
+ [] 
+ []
+
+<gotowosc.png, id=50, 751.80875pt x 984.67876pt>
 File: gotowosc.png Graphic file (type png)
 <use gotowosc.png>
 Package pdftex.def Info: gotowosc.png  used on input line 740.
-(pdftex.def)             Requested size: 376.90721pt x 497.3569pt.
-<oczekiwanie.png, id=51, 995.72pt x 1096.095pt>
+(pdftex.def)             Requested size: 375.90344pt x 492.33817pt.
+<oczekiwanie.png, id=51, 928.46875pt x 1044.90375pt>
 File: oczekiwanie.png Graphic file (type png)
 <use oczekiwanie.png>
 Package pdftex.def Info: oczekiwanie.png  used on input line 751.
-(pdftex.def)             Requested size: 497.85878pt x 548.04616pt.
- [14 <./moduły.png>] [15 <./gotowosc.png>] [16 <./oczekiwanie.png>] 
+(pdftex.def)             Requested size: 464.23325pt x 522.45059pt.
+<pomiary.png, id=52, 971.63pt x 1346.02875pt>
+File: pomiary.png Graphic file (type png)
+<use pomiary.png>
+Package pdftex.def Info: pomiary.png  used on input line 762.
+(pdftex.def)             Requested size: 485.81381pt x 673.01273pt.
+<alarmowy.png, id=53, 844.15375pt x 1165.35374pt>
+File: alarmowy.png Graphic file (type png)
+<use alarmowy.png>
+Package pdftex.def Info: alarmowy.png  used on input line 773.
+(pdftex.def)             Requested size: 422.07584pt x 582.67545pt.
+<offline.png, id=54, 862.22125pt x 914.41624pt>
+File: offline.png Graphic file (type png)
+<use offline.png>
+Package pdftex.def Info: offline.png  used on input line 784.
+(pdftex.def)             Requested size: 431.10957pt x 457.207pt.
+[14] [15 <./moduły.png>] [16 <./gotowosc.png>] [17 <./oczekiwanie.png>] [18 <./pomiary.png>] [19 <./alarmowy.png>] [20 <./offline.png>] 
 enddocument/afterlastpage: lastpage setting LastPage.
 (./AutomatyczneStacjeMeteo.aux) ) 
 Here is how much of TeX's memory you used:
- 6702 strings out of 476025
- 108095 string characters out of 5780034
+ 6726 strings out of 476025
+ 108459 string characters out of 5780034
  1870388 words of memory out of 5000000
- 27010 multiletter control sequences out of 15000+600000
+ 27031 multiletter control sequences out of 15000+600000
  527809 words of font info for 74 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  70i,9n,76p,750b,335s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </opt/homebrew/Cellar/texlive/20230313/share/texmf-dist/fonts/type1/public/pl/plbx12.pfb></opt/homebrew/Cellar/texlive/20230313/share/texmf-dist/fonts/type1/public/pl/plr10.pfb></opt/homebrew/Cellar/texlive/20230313/share/texmf-dist/fonts/type1/public/pl/plr12.pfb></opt/homebrew/Cellar/texlive/20230313/share/texmf-dist/fonts/type1/public/pl/plr17.pfb>
-Output written on AutomatyczneStacjeMeteo.pdf (16 pages, 422472 bytes).
+Output written on AutomatyczneStacjeMeteo.pdf (20 pages, 585110 bytes).
 PDF statistics:
- 84 PDF objects out of 1000 (max. 8388607)
- 51 compressed objects within 1 object stream
+ 103 PDF objects out of 1000 (max. 8388607)
+ 60 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 16 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 31 words of extra memory for PDF output out of 10000 (max. 10000000)
 

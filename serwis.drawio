@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-28T17:40:10.079Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="sALVA_4B7rTrMS_Kou2B" version="21.5.1" type="device">
+<mxfile host="app.diagrams.net" modified="2023-06-28T19:11:25.795Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="sdPQ31m6veHLRKEYpWuM" version="21.5.1" type="device">
   <diagram name="Page-1" id="0783ab3e-0a74-02c8-0abd-f7b4e66b4bec">
     <mxGraphModel dx="1063" dy="544" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
       <root>
@@ -52,7 +52,7 @@
             <mxPoint x="415" y="160" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="RoVOGvNV2QU-nWZsqdHu-67" value="Sprawdzenie raportu, aby znaleźć przyczynę przejścia do stanu offline" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;arcSize=50;" vertex="1" parent="1">
+        <mxCell id="RoVOGvNV2QU-nWZsqdHu-67" value="Sprawdzenie raportu, aby znaleźć przyczynę przejścia do stanu serwisowego" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;arcSize=50;" vertex="1" parent="1">
           <mxGeometry x="310" y="160" width="200" height="50" as="geometry" />
         </mxCell>
         <mxCell id="RoVOGvNV2QU-nWZsqdHu-68" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="RoVOGvNV2QU-nWZsqdHu-67">
@@ -334,7 +334,7 @@
             <mxPoint x="620" y="820" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="RoVOGvNV2QU-nWZsqdHu-116" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;Offline&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="RoVOGvNV2QU-nWZsqdHu-116" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;Serwis&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="330" y="20" width="180" height="30" as="geometry" />
         </mxCell>
       </root>

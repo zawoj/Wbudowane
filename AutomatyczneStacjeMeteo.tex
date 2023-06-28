@@ -26,7 +26,7 @@
 
 \title{Systemy wbudowane '23 \\ Projekt \\ Automatyczne stacje meteorologiczne}
 \author{Piotr Zapała, Igor Urbanowicz, Kacper Zawojski}
-\date{March 2023}
+\date{}
 \begin{document}
 \maketitle
 \begin{center}
@@ -622,7 +622,17 @@
         \hline
         \end{tabular}
     \end{center}
-    \newpage
+
+    \begin{figure}
+        \centering
+        \begin{minipage}{0.6\textwidth}
+            \centering
+            \large Diagram przypadków użycia
+        \end{minipage}
+        \includegraphics[scale=0.5]{pu.png}
+        \caption{Diagram PU}
+        \label{etykieta11}
+    \end{figure}
 
     \large Przykładowy system realizujący urządzenie automatycznie badające warunki atmofseryczne, może składać się z następujących modułów: \newline \newline
     \begin{center}
@@ -746,7 +756,7 @@
     \centering
     \begin{minipage}{0.6\textwidth}
         \centering
-        \large Drugi z diagramów stanów prezentuję stan "Oczekiwanie", który prezentuje działanie systemu w konteksćie odbierania sygnałów zewnętrznych i wewenętrznych związanych z podstawowym sterowaniem.
+        \large Drugi z diagramów stanów prezentuję stan "Oczekiwanie", który opisuje działanie systemu w konteksćie odbierania sygnałów zewnętrznych i wewenętrznych związanych z podstawowym sterowaniem.
     \end{minipage}
     \includegraphics[scale=0.5]{oczekiwanie.png}
     \caption{Diagram stanu "Oczekiwanie"}
@@ -757,7 +767,7 @@
     \centering
     \begin{minipage}{0.6\textwidth}
         \centering
-        \large Trzeci z diagramów stanów prezentuję stan "Pomiary", który prezentuje działanie systemu w konteksćie monitorowania warunków pogodowych.
+        \large Trzeci z diagramów stanów prezentuję stan "Pomiary", który opisuje działanie systemu w sytuacji monitorowania warunków pogodowych.
     \end{minipage}
     \includegraphics[scale=0.5]{pomiary.png}
     \caption{Diagram stanu "Pomiary"}
@@ -768,7 +778,7 @@
     \centering
     \begin{minipage}{0.6\textwidth}
         \centering
-        \large Czwarty z diagramów stanów prezentuję stan "Alarmowy", który prezentuje działanie systemu w sytuacjach alarmowych.
+        \large Czwarty z diagramów stanów prezentuję stan "Alarmowy", który opisuje działanie systemu w sytuacjach alarmowych.
     \end{minipage}
     \includegraphics[scale=0.5]{alarmowy.png}
     \caption{Diagram stanu "Alarmowy"}
@@ -779,10 +789,79 @@
     \centering
     \begin{minipage}{0.6\textwidth}
         \centering
-        \large Piąty z diagramów stanów prezentuję stan "Offline", który prezentuje działanie systemu w sytuacji.
+        \large Piąty z diagramów stanów prezentuję stan "Serwis", który opisuje działanie systemu w sytuacji wystąpienia różnych problemów.
     \end{minipage}
-    \includegraphics[scale=0.5]{offline.png}
-    \caption{Diagram stanu "Offline"}
+    \includegraphics[scale=0.5]{serwis.png}
+    \caption{Diagram stanu "Serwis"}
     \label{etykieta5}
+\end{figure}
+
+\begin{figure}
+    \centering
+    \begin{minipage}{0.6\textwidth}
+        \centering
+        \large Szósty z diagramów stanów prezentuję stan "Kalibracja", który opisuje działanie systemu w sytuacji kalibracji czujników.
+    \end{minipage}
+    \includegraphics[scale=0.5]{kalibracja.png}
+    \caption{Diagram stanu "Kalibracja"}
+    \label{etykieta8}
+\end{figure}
+
+\begin{figure}
+    \centering
+    \begin{minipage}{0.6\textwidth}
+        \centering
+        \large Siódmy z diagramów stanów prezentuję stan "Uśpienie", który opisuje działanie systemu w sytuacji uśpienia.
+    \end{minipage}
+    \includegraphics[scale=0.5]{uspienie.png}
+    \caption{Diagram stanu "Uśpienie"}
+    \label{etykieta9}
+\end{figure}
+
+\begin{figure}
+    \centering
+    \begin{minipage}{0.6\textwidth}
+        \centering
+        \large Ósmy z diagramów stanów prezentuję stan "Awaryjny", który opisuje działanie systemu w sytuacji poważnych usterek.
+    \end{minipage}
+    \includegraphics[scale=0.5]{awaryjny.png}
+    \caption{Diagram stanu "Alarmowy"}
+    \label{etykieta12}
+\end{figure}
+
+\begin{figure}
+    \centering
+    \begin{minipage}{0.6\textwidth}
+        \centering
+        \large Diagram decyzyjny
+    \end{minipage}
+    \includegraphics[scale=0.5]{4.1.1.png}
+    \caption{Diagram decyzyjny}
+    \label{etykieta13}
+\end{figure}
+
+\begin{figure}
+    \centering
+    \begin{minipage}{0.6\textwidth}
+        \centering
+        \large Diagram przepływu
+    \end{minipage}
+    \begin{center}
+        \includegraphics[scale=0.35]{4.1.2.png}
+    \end{center}
+    \caption{Diagram przepływu}
+    \label{etykieta14}
+\end{figure}
+
+
+\begin{figure}
+    \centering
+    \begin{minipage}{0.6\textwidth}
+        \centering
+        \large Diagram interakcji
+    \end{minipage}
+    \includegraphics[scale=0.5]{4.1.4.png}
+    \caption{Diagram interakcji}
+    \label{etykieta15}
 \end{figure}
 \end{document}
